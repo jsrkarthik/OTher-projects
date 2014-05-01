@@ -1,0 +1,32 @@
+import tweepy
+import time
+import sys
+from random import randint
+    
+consumer_key = 'rcdbXbMyYAbaJ0DertwAjg'
+consumer_secret = 'JHcX2LVxxRZb9zgJi7J9j8my2Rvu6OHYbKM6HFjUKBI'
+access_key = '75150596-Y7hxPYCotMtrcBvXZ8sCsnGbLalgBBFJyS9PFDMR4'
+access_secret = 'Hi9LstuYQxR4sgfMfPyH4bqxnBkjVK2SSehyCnj2VKWmF'
+auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
+auth.set_access_token(access_key, access_secret)
+api = tweepy.API(auth)
+i =0
+querylist=['#katyperry', '#katycats', '#darkhorse', '#iHeartRadio', '#ladygaga', '#TaylorSwift', '#sxsw', 'Rolling Stone','@DwightHoward', '#rockets', 'jeremy lin', 'toyota center', 'kevin mchale', 'houston nba', 'James Harden', 'linsanity','Jan Koum', 'WhatsApp', '#SEO', 'facebook', '#socialmedia', 'Zuckerberg', 'user privacy', '#Instagram','Obama', '#tcot', 'Russia', 'Putin', 'White House', 'Ukraine', 'Rand Paul', 'foreign policy']
+
+
+for query in querylist:
+	i=0
+	f=open(query+'.txt','w')
+	for tweet in api.search(q=query,count=50,		                  
+		                    result_type="recent",
+		                    include_entities=True,
+		                    lang="en"):
+	    if i < 50 :
+	     print tweet.text
+	     f.write(tweet.text.encode('utf-8'))
+	     f.write('\n')
+	     print "\n"
+	    else:
+	     break
+	    i+=1
+	f.close()    

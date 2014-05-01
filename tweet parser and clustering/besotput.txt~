@@ -1,0 +1,61 @@
+k=2
+
+cluster 0
+['./ir/#tcot.txt', './ir/facebook.txt', './ir/Rolling Stone.txt', './ir/#katycats.txt', './ir/Obama.txt', './ir/#SEO.txt', './ir/#iHeartRadio.txt', './ir/Russia.txt', './ir/White House.txt', './ir/Putin.txt', './ir/#katyperry.txt', './ir/#darkhorse.txt', './ir/WhatsApp.txt', './ir/user privacy.txt', './ir/#Instagram.txt', './ir/foreign policy.txt', './ir/Ukraine.txt', './ir/Rand Paul.txt', './ir/#TaylorSwift.txt', './ir/Jan Koum.txt']
+cluster 1
+['./ir/jeremy lin.txt', './ir/linsanity.txt', './ir/James Harden.txt', './ir/houston nba.txt', './ir/Zuckerberg.txt', './ir/toyota center.txt', './ir/#ladygaga.txt', './ir/#rockets.txt', './ir/#socialmedia.txt', './ir/kevin mchale.txt', './ir/@DwightHoward.txt', './ir/#sxsw.txt']
+purity 0.5
+RSS 15754.3778746
+converged in 12 iterations
+
+k=4
+
+cluster 0
+['./ir/#tcot.txt', './ir/Obama.txt', './ir/Russia.txt', './ir/White House.txt', './ir/Putin.txt', './ir/user privacy.txt', './ir/foreign policy.txt', './ir/Ukraine.txt', './ir/Rand Paul.txt', './ir/Jan Koum.txt']
+cluster 1
+['./ir/Rolling Stone.txt', './ir/#katyperry.txt', './ir/#darkhorse.txt', './ir/#ladygaga.txt', './ir/WhatsApp.txt', './ir/#TaylorSwift.txt', './ir/#sxsw.txt']
+cluster 2
+['./ir/jeremy lin.txt', './ir/linsanity.txt', './ir/#katycats.txt', './ir/James Harden.txt', './ir/houston nba.txt', './ir/toyota center.txt', './ir/#rockets.txt', './ir/kevin mchale.txt', './ir/@DwightHoward.txt']
+cluster 3
+['./ir/facebook.txt', './ir/#SEO.txt', './ir/#iHeartRadio.txt', './ir/Zuckerberg.txt', './ir/#Instagram.txt', './ir/#socialmedia.txt']
+purity 0.84375
+RSS 14500.3065141
+converged in 12 iterations
+
+k=6
+cluster 0
+['./ir/Rolling Stone.txt', './ir/#katycats.txt', './ir/#iHeartRadio.txt', './ir/#katyperry.txt', './ir/#darkhorse.txt', './ir/#ladygaga.txt', './ir/#TaylorSwift.txt']
+cluster 1
+['./ir/Russia.txt', './ir/Putin.txt', './ir/Ukraine.txt']
+cluster 2
+['./ir/jeremy lin.txt', './ir/linsanity.txt', './ir/James Harden.txt', './ir/houston nba.txt', './ir/toyota center.txt', './ir/#rockets.txt', './ir/kevin mchale.txt', './ir/@DwightHoward.txt']
+cluster 3
+['./ir/#tcot.txt', './ir/Obama.txt', './ir/White House.txt', './ir/#socialmedia.txt']
+cluster 4
+['./ir/#SEO.txt', './ir/foreign policy.txt', './ir/Rand Paul.txt']
+cluster 5
+['./ir/facebook.txt', './ir/Zuckerberg.txt', './ir/WhatsApp.txt', './ir/user privacy.txt', './ir/#Instagram.txt', './ir/Jan Koum.txt', './ir/#sxsw.txt']
+purity 0.90625
+RSS 13149.2963311
+converged in 12 iterations
+
+k=8
+cluster 0
+['./ir/facebook.txt', './ir/Rolling Stone.txt', './ir/#katyperry.txt', './ir/#darkhorse.txt', './ir/#ladygaga.txt', './ir/WhatsApp.txt', './ir/#Instagram.txt', './ir/#TaylorSwift.txt', './ir/Jan Koum.txt', './ir/#sxsw.txt']
+cluster 1
+['./ir/#katycats.txt', './ir/#SEO.txt', './ir/#iHeartRadio.txt']
+cluster 2
+['./ir/#tcot.txt']
+cluster 3
+['./ir/foreign policy.txt', './ir/Rand Paul.txt']
+cluster 4
+['./ir/Zuckerberg.txt', './ir/user privacy.txt', './ir/#socialmedia.txt']
+cluster 5
+['./ir/jeremy lin.txt', './ir/linsanity.txt', './ir/James Harden.txt', './ir/houston nba.txt', './ir/toyota center.txt', './ir/#rockets.txt', './ir/kevin mchale.txt', './ir/@DwightHoward.txt']
+cluster 6
+['./ir/Russia.txt', './ir/Putin.txt', './ir/Ukraine.txt']
+cluster 7
+['./ir/Obama.txt', './ir/White House.txt']
+purity 0.84375
+RSS 11764.3856755
+converged in 12 iterations
